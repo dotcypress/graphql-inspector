@@ -1,5 +1,11 @@
 {
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "version": "2.3.0"
+  "version": "2.3.0",
+  "packages": [
+    "packages/*",
+    "packages/commands/*",
+    "packages/loaders/*",
+    "packages/graphql-cli/*"
+  ]
 }
